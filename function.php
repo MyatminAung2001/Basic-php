@@ -31,6 +31,7 @@ $add = fn($x, $y) => $x + $y;
 
 echo $add(12, 23);
 
+// Conditional => if & switch
 if (true) {
     echo "This is true";
 } else {
@@ -61,6 +62,7 @@ switch ($mark) {
         break;
 }
 
+// For loop
 for ($i = 1; $i <= 10; $i++) {
     if ($i === 5) {
         // continue; skip 5
@@ -87,6 +89,7 @@ for ($i = 0; $i < count($students); $i++) {
     echo ($i+1).$students[$i]. "\n";
 }
 
+// For Each
 foreach($students as $student) {
     echo $student. "\n";
 }
@@ -97,6 +100,7 @@ foreach($students as $key => $value) {
 
 $i = 0;
 
+// While & Do while
 while($i <= 10) {
     $i++;
     print("While Loop $i \n");

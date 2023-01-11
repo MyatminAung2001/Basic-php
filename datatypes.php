@@ -54,3 +54,8 @@ $false = false;
 print($false);
 var_dump($true);
 var_dump($false);
+
+// String
+$one = 1;
+$onePlusOne = " $one + $one ";
+echo $onePlusOne;
